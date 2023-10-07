@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
      
-      <body className={'inter.className bg-gray-300'}>
+      <body className={'inter.className bg-purple-300'}>
       <Navbar isLoggedIn={!isLoggedIn}  setisLoggedIn={!setisLoggedIn}/>
       
         {children}</body>

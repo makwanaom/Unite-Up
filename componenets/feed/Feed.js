@@ -129,10 +129,10 @@ const Feed = () => {
           <div className='flex item-center space-x-2'>
             <button onClick={() => setModalOpen(true)} className=' border-gray-800 border-2 text-black rounded-full px-4 py-3 shadow-2xl bg-gradient-to-r from-slate-300 via-slate-200 to-slate-200 transition-all active:border-purple-400 '>New post</button>
             <div>
-              <button className='  group hover:bg-white border-2 ml-72 px-4  rounded-full align-middle shadow-2xl bg-gradient-to-r from-slate-300 via-slate-200 to-slate-200 border-2xl   transition-all active:border-purple-400  border-black'>
-                <FcStackOfPhotos size={25} className='ml-14' />
+              <button className='  group hover:bg-white border-2 ml-80 px-4  rounded-full align-middle shadow-2xl bg-gradient-to-r from-slate-300 via-slate-200 to-slate-200 border-2xl   transition-all active:border-purple-400  border-black'>
+                <FcStackOfPhotos size={25} className=' ml-10' />
                 <h4 className='  opacity-80 group-hover:opacity-100 '>
-                  Recommended Post
+                 Previous Posts
                 </h4>
               </button>
             </div>

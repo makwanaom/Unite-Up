@@ -22,8 +22,8 @@ const Navbar = (props) => {
  
 
   return (
-    < div >
-      <nav className={'bg-slate-200 flex items-center rounded-xl border border-zinc-400'}>
+    < div className='sticky '>
+      <nav className={' bg-purple-500 z-10 sticky flex items-center rounded-xl border border-zinc-400'}>
         <div>
         
           <Image className='mx-2 md:mx-20  rounded-lg  ' loading='lazy' src={"/uu-logo.png"} alt='Logo' width={150} height={5}/> 

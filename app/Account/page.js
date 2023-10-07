@@ -30,7 +30,16 @@ const Account = () => {
 
             </div>
 
-            <div className="profile-description ml-52 rounded-2xl">
+            <div className="profile-description ml-60 rounded-2xl">
+                <h2>
+                   About 
+                </h2>
+                <p>
+                Tesla is an American multinational automotive and clean energy company headquartered in Austin, Texas, which designs and manufactures electric vehicles, stationary battery energy storage devices from home to grid-scale, solar panels and solar shingles, and related products and services.
+                </p>
+
+            </div>
+            <div className="profile-description ml-60 rounded-2xl">
                 <h2>
                    About 
                 </h2>
@@ -41,7 +50,8 @@ const Account = () => {
             </div>
 
 
-            <div className="profile-description ml-52 rounded-2xl">
+
+            <div className="profile-description ml-60 rounded-2xl">
                 <h2>
                 Achievement
                 </h2>
