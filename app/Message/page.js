@@ -6,7 +6,7 @@ import Chatsidebar from '@/componenets/chatsidebar/Chatsidebar'
 
 const Message = () => {
   return (
-    <div className=' h-screen flex items-center justify-center '>
+    <div className=' w-full  mt-6 flex items-center justify-center '>
      
      <div className='border h-4/5 flex   overflow-hidden w-[90%] rounded-[10px] border-solid border-[white]'>
         <Chatsidebar/> 

@@ -22,14 +22,14 @@ const Navbar = (props) => {
  
 
   return (
-    <  >
-      <nav className={' bg-slate-200 flex items-center rounded-xl border border-zinc-400'}>
+    < div >
+      <nav className={'bg-slate-200 flex items-center rounded-xl border border-zinc-400'}>
         <div>
         
-          <Image className=' mx-20 rounded-lg  ' loading='lazy' src={"/uu-logo.png"} alt='Logo' width={150} height={5}/> 
+          <Image className='mx-2 md:mx-20  rounded-lg  ' loading='lazy' src={"/uu-logo.png"} alt='Logo' width={150} height={5}/> 
         </div>
 
-        <div className='text-black flex items-center  text-sm ml-[250px] p-3 space-x-6'>
+        <div className='text-black flex items-center text-sm ml-4 md:ml-20 p-3 space-x-6'>
          
         
               <Link href='/'>
@@ -120,7 +120,7 @@ const Navbar = (props) => {
           <input type='text' placeholder='Search' className=' max-w-max border border-gray-600 rounded bg-white text-sm placeholder:to-black/70 dark:placeholder-white/75'/>
         </div>
       </nav>
-    </>
+    </div>
   ) 
 }
 
