@@ -1,0 +1,30 @@
+.comments{
+    /* width: 30px; */
+}
+
+.for-imgCmt{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.comment{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+}
+.date-pl{
+      font-size: 10px;
+      flex: 1;
+      margin-right: 40px;
+}
+
