@@ -8,27 +8,36 @@ const Comments = () => {
   const comments = [
     {
       id: 1,
-      name: "John Doe",
+      name: "Aman Gupta",
       userId: 1,
       profilePic:
-        "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "https://pbs.twimg.com/profile_images/1480461625727455234/fofDHTWQ_400x400.jpg",
+      desc: "This company is a game-changer in the industry. Keep setting the standard for innovation!",
     },
     {
       id: 2,
-      name: "Vivek Mishra",
+      name: "Piyush Bansal",
       userId: 2,
       profilePic:
-        "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://im.indiatimes.in/content/2022/Feb/Peyush-Bansal-shark-tank-india-net-worth_6203b3d39e29c.jpg?w=1200&h=900&cc=1",
       desc:
-        "Tenetur iste voluptates dolorem rem commodi voluptate pariatur, voluptatum, laboriosam consequatur enim nostrum cumque! Maiores a nam non adipisci minima modi tempore.",
+        "Your company consistently delivers on its promises.",
+    },
+    {
+      id: 3,
+      name: "Ashneer Grover",
+      userId: 3,
+      profilePic:
+        "https://images.assettype.com/fortuneindia%2F2022-01%2Fea0ee46d-8917-44f1-88c8-6e3c4586ea04%2FAshneer_Grover_BharatPe.jpg?w=1250&q=60",
+      desc:
+        "The quality-to-price ratio of your products is unbeatable",
     },
   ];
 
   return (
     <div className='comments'>
       {comments.map((comment) => (
-        <div className='comment' >
+        <div className='comment bg-slate-300 rounded-xl p-3' >
           <img className='for-imgCmt' src={comment.profilePic} alt='' />
           <div className='info' > 
             <span className=' font-bold'>{comment.name}</span>
